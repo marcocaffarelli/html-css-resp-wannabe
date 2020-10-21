@@ -87,11 +87,11 @@ img {
   }
 
   img{
-    margin-top: 30px;
+    margin-top: 50px;
   }
 
   .right{
-    padding: 2px;
+    padding: 20px 0;
   }
 
   .row{
@@ -104,7 +104,7 @@ img {
 
   #lezioni .row, #why .row{
     background-color: #F2F2CD;
-    padding: 10px;
+    padding: 20px;
   }
 
   /* BLOCCO LEZIONI */
@@ -120,6 +120,17 @@ img {
   #steps .row>.right {
     float: left;
     width: 100%;
+  }
+
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    margin-top: 0px;
+  }
+
+  #why .row img {
+    width: 140px;
+    height: 140px;
   }
 
   hr{
