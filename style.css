@@ -73,6 +73,26 @@ img {
 }
 
 @media screen and (max-width:420px){
+  *{
+    margin: 0;
+  }
+
+  h1{
+    padding-top: 10px;
+  }
+  
+  .right{
+    padding-bottom: 10px;
+  }
+
+  .row{
+    margin: 0;
+  }
+
+  #lezioni .row, #why .row{
+    background-color: #F2F2CD;
+  }
+
   /* BLOCCO LEZIONI */
   #lezioni .row>.left,
   #lezioni .row>.right {
@@ -86,5 +106,9 @@ img {
   #steps .row>.right {
     float: left;
     width: 100%;
+  }
+
+  img{
+    margin-top: 30px;
   }
 }
